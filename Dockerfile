@@ -9,3 +9,5 @@ COPY app.py .
 
 # Jalankan aplikasi
 CMD ["python", "app.py"]
+
+docker buildx build .
